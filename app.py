@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 def mensagem():
-    return "Olá, DevOps!"
+    return "Olá, DevOps! Versão 2"
 
 @app.route("/")
 def index():
